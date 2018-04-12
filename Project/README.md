@@ -5,8 +5,9 @@
    1701213175
   
 ## Backgroud 
-   I believe that many of you have ever played the game called league of legend. And if you play this game, you must have experienced this circumstance.
-   For example, you are the last player to choose your hero, and all of us want to win to get a better rank, but you have a lot of choice, you want to win but don’t know which one to choose to cooperate with others. Then my model will help you choose the last hero to keep a highest win rate.
+I believe that many of you have ever played the game called league of legend. And if you play this game, you must have experienced this circumstance.
+   
+For example, you are the last player to choose your hero, and all of us want to win to get a better rank, but you have a lot of choice, you want to win but don’t know which one to choose to cooperate with others. Then my model will help you choose the last hero to keep a highest win rate.
 
 ## LOL Predictor
 My project wants to use the machine learning to analyze the lol game (league of legends), it may contains the following questions:
