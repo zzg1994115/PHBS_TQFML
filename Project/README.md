@@ -1,4 +1,4 @@
-# LOL prediction
+# League of Legend prediction
 
 ## Team member
    Zhu zhiguang(Gordon)
