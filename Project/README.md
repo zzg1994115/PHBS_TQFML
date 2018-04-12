@@ -16,7 +16,7 @@ My project wants to use the machine learning to analyze the lol game (league of 
       
 ## Training model
 The algorithm used for training is Logistic Regression
-it contains ten independent variables and one result 
+it contains ten input variables and one input variable(1 or 0).
 for example, ([59, 56, 54, 48, 31],[40, 41, 52, 68, 61]), 1 or 0.
 
 ## Querying a model
