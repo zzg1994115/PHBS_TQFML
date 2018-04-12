@@ -1,7 +1,7 @@
 # League of Legend prediction
 
 ## Team member
-   Zhu zhiguang(Gordon)
+   Zhiguang(Gordon) Zhu 
    1701213175
   
 ## Backgroud 
