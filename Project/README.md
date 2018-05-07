@@ -47,6 +47,12 @@ blue team win: 1 stands for blue team win and 0 stands for red team win
 ## Training and evaluating a model
 The algorithm used for training is Logistic Regression and the evaluation is done through cross validation. The trained model can be saved to a pickle file for later use. The cross validation is done on the train dataset and the final accuracy scores (ROC AUC and raw accuracy) are on the test dataset.
 
+from sklearn.linear_model import LogisticRegression
+
+lr = LogisticRegression(C=0.01, random_state=42)
+lr.fit(X_train, y_train)
+
+
 output:
 
 INFO:preprocessing.dataset:The train dataset contains 78727 games
@@ -61,6 +67,21 @@ INFO:training.cross_validation:Test accuracy score: 0.65
 
 ##Visualizing data![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/12.JPG)
                                        learning curve
+
+Using the decision tree
+
+from sklearn.tree import DecisionTreeClassifier
+
+tree = DecisionTreeClassifier(criterion='gini', 
+                              max_depth=4, 
+                              random_state=1)
+tree.fit(X_train, y_train)
+
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/3.JPG)
+
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/4.JPG)
+
+confusion matrix
 
 ## Querying a model
 There are two type of queries you can do:
