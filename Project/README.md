@@ -20,6 +20,8 @@ The project achieves roughly 0.60 ROC AUC score and 0.65 accuracy using Logistic
 ## Mining data
 Mining approximate 100000 games and the original data is as follows:
 
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/1.JPG)
+
 I give 139 different heros as orders [1,2,3,...,139]
 in excel saving them to a file is as simple as:
 
@@ -31,10 +33,18 @@ red team 4: read team adc
 red team 5: red team support
 blue team win: 1 stands for blue team win and 0 stands for red team win 
       
-## Training model
-The algorithm used for training is Logistic Regression
-it contains ten input variables and one input variable(1 or 0).
-for example, ([59, 56, 54, 48, 31],[40, 41, 52, 68, 61]), 1 or 0.
+## Training and evaluating a model
+The algorithm used for training is Logistic Regression and the evaluation is done through cross validation. The trained model can be saved to a pickle file for later use. The cross validation is done on the train dataset and the final accuracy scores (ROC AUC and raw accuracy) are on the test dataset.
+
+output:
+INFO:preprocessing.dataset:The train dataset contains 78727 games
+INFO:preprocessing.dataset:The test dataset contains 33740 games
+INFO:training.cross_validation:Cross validation scores over the training set (7 folds): 0.646 +/- 0.000
+INFO:training.cross_validation:Test ROC AUC: 0.628
+INFO:training.cross_validation:Test accuracy score: 0.65
+
+##Visualizing data
+
 
 ## Querying a model
 There are two type of queries you can do:
@@ -48,7 +58,9 @@ full_result = query([59, 56, 54, 48, 31],
 
 partial_result = query([59, 56, 54, 48, 31],
                        [40, 41, 52, 68])
-                      
+ 
+ 
+       
 ## Dataset description
 Kaggle https://www.kaggle.com/paololol/league-of-legends-ranked-matches
 Data about 300000 League of Legends ranked games, spanning across several years
