@@ -15,7 +15,7 @@ it may answer the following questions:
       1、Given the other heroes, which last hero should you choose to make your win rate the highest.
       2、which team will win considering all the heroes chosen. I can offer the win rate, you can gamble on the pro game.
 
-The project achieves roughly 0.60 ROC AUC score and 0.65 accuracy using Logistic Regression. The code is used mainly for creating models used by https://www.kaggle.com/paololol/league-of-legends-ranked-matches.
+The project achieves roughly 0.628 ROC AUC score and 0.65 accuracy using Logistic Regression. The code is used mainly for creating models used by https://www.kaggle.com/paololol/league-of-legends-ranked-matches.
 
 ## Mining data
 Mining approximate 100000 games and the original data is as follows:
