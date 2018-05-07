@@ -9,10 +9,27 @@ I believe that many of you have ever played the game called league of legend. An
    
 For example, you are the last player to choose your hero, and all of us want to win to get a better rank, but you have a lot of choice, you want to win but don’t know which one to choose to cooperate with others. Then my model will help you choose the last hero to keep a highest win rate.
 
-## LOL Predictor
-My project wants to use the machine learning to analyze the lol game (league of legends), it may contains the following questions:
+## Overview
+LoL-predictor is a tool that uses Machine Learning to predict the outcome of a LOL game and suggest the best last pick. 
+it may answer the following questions:
       1、Given the other heroes, which last hero should you choose to make your win rate the highest.
-      2、which team will win considering all the heroes chosen. I can offer the win rate, you can gamble on it.
+      2、which team will win considering all the heroes chosen. I can offer the win rate, you can gamble on the pro game.
+
+The project achieves roughly 0.60 ROC AUC score and 0.65 accuracy using Logistic Regression. The code is used mainly for creating models used by https://www.kaggle.com/paololol/league-of-legends-ranked-matches.
+
+## Mining data
+Mining approximate 100000 games and the original data is as follows:
+
+I give 139 different heros as orders [1,2,3,...,139]
+in excel saving them to a file is as simple as:
+
+
+red team 1: red team top 
+red team 2: read team jungle
+red team 3: read team mid
+red team 4: read team adc
+red team 5: red team support
+blue team win: 1 stands for blue team win and 0 stands for red team win 
       
 ## Training model
 The algorithm used for training is Logistic Regression
