@@ -7,10 +7,12 @@
 ## Backgroud 
 I believe that many of you have ever played the game called league of legend. And if you play this game, you must have experienced this circumstance.
    
+   
 For example, you are the last player to choose your hero, and all of us want to win to get a better rank, but you have a lot of choice, you want to win but don’t know which one to choose to cooperate with others. Then my model will help you choose the last hero to keep a highest win rate.
 
 ## Overview
 LoL-predictor is a tool that uses Machine Learning to predict the outcome of a LOL game and suggest the best last pick. 
+
 it may answer the following questions:
       1、Given the other heroes, which last hero should you choose to make your win rate the highest.
       2、which team will win considering all the heroes chosen. I can offer the win rate, you can gamble on the pro game.
