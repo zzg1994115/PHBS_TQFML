@@ -77,6 +77,7 @@ from sklearn.tree import DecisionTreeClassifier
 tree = DecisionTreeClassifier(criterion='gini', 
                               max_depth=4, 
                               random_state=1)
+                              
 tree.fit(X_train, y_train)
 
 ## Visualizing data
@@ -104,7 +105,14 @@ partial_result = query([59, 56, 54, 48, 31],
 ## Real world Example 
 If you put [9,78,65,43,23],[4,8,76,122,]
 
-which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Garen, which is a counter of Riven. It makes sense!
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/5.JPG)
+
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/7.JPG)
+
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/6.JPG)
+
+
+which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Jax, which is a counter of Riven. It makes sense!
  
 ## Dataset description
 Kaggle https://www.kaggle.com/paololol/league-of-legends-ranked-matches
