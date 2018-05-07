@@ -22,7 +22,7 @@ it may answer the following questions:
 The project achieves roughly 0.628 ROC AUC score and 0.65 accuracy using Logistic Regression. The code is used mainly for creating models used by https://www.kaggle.com/paololol/league-of-legends-ranked-matches.
 
 ## Mining data
-Mining approximate 100000 games and the original data is as follows:
+Mining approximate 100000 games and the filtered data is as follows:
 
 ![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/1.JPG)
 
