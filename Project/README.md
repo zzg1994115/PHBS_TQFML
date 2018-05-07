@@ -80,7 +80,7 @@ partial_result = query([59, 56, 54, 48, 31],
 ## Real world Example 
 If you put [9,78,65,43,23],[4,8,76,122,]
 
-which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be garen, which is a counter of Riven. It make sense!
+which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Garen, which is a counter of Riven. It make sense!
  
 ## Dataset description
 Kaggle https://www.kaggle.com/paololol/league-of-legends-ranked-matches
