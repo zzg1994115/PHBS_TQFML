@@ -24,7 +24,7 @@ Mining approximate 100000 games and the original data is as follows:
 
 I give 139 different heros as orders [1,2,3,...,139]
 in excel saving them to a file is as simple as:
-
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/2.JPG)
 
 red team 1: red team top 
 red team 2: read team jungle
@@ -44,7 +44,8 @@ INFO:training.cross_validation:Test ROC AUC: 0.628
 INFO:training.cross_validation:Test accuracy score: 0.65
 
 ##Visualizing data
-
+![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/12.JPG)
+                                       learning curve
 
 ## Querying a model
 There are two type of queries you can do:
@@ -58,10 +59,12 @@ full_result = query([59, 56, 54, 48, 31],
 
 partial_result = query([59, 56, 54, 48, 31],
                        [40, 41, 52, 68])
+                      
+## Example 
+If you put [9,78,65,43,23],[4,8,76,122,]
+which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be garen, which is a counter of Riven. It make sense!
  
- 
-       
 ## Dataset description
 Kaggle https://www.kaggle.com/paololol/league-of-legends-ranked-matches
-Data about 300000 League of Legends ranked games, spanning across several years
+Data about 100000 League of Legends ranked games, spanning across several years
 All data belongs ultimately to Riot Games and their data policies applies. 
