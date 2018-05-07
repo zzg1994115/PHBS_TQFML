@@ -38,9 +38,13 @@ The algorithm used for training is Logistic Regression and the evaluation is don
 
 output:
 INFO:preprocessing.dataset:The train dataset contains 78727 games
+
 INFO:preprocessing.dataset:The test dataset contains 33740 games
+
 INFO:training.cross_validation:Cross validation scores over the training set (7 folds): 0.646 +/- 0.000
+
 INFO:training.cross_validation:Test ROC AUC: 0.628
+
 INFO:training.cross_validation:Test accuracy score: 0.65
 
 ##Visualizing data
