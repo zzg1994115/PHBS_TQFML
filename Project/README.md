@@ -17,7 +17,7 @@ it may answer the following questions:
 
 1、Given the other heroes, which last hero should you choose to make your win rate the highest.
       
-2、which team will win considering all the heroes chosen. I can offer the win rate, you can gamble on the pro game.
+2、which team will win considering all the heroes chosen. I can offer the win rate, you can make a gamble on the pro game and win some money.
 
 The project achieves roughly 0.628 ROC AUC score and 0.65 accuracy using Logistic Regression. The code is used mainly for creating models used by https://www.kaggle.com/paololol/league-of-legends-ranked-matches.
 
@@ -80,7 +80,7 @@ partial_result = query([59, 56, 54, 48, 31],
 ## Real world Example 
 If you put [9,78,65,43,23],[4,8,76,122,]
 
-which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Garen, which is a counter of Riven. It make sense!
+which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Garen, which is a counter of Riven. It makes sense!
  
 ## Dataset description
 Kaggle https://www.kaggle.com/paololol/league-of-legends-ranked-matches
