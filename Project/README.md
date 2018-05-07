@@ -1,8 +1,10 @@
 # League of Legend Prediction model
 
 ## Team member
-   Zhiguang(Gordon) Zhu 
-   1701213175
+   
+   name : Zhiguang(Gordon) Zhu 
+   
+   student ID : 1701213175
   
 ## Backgroud 
 I believe that many of you have ever played the game called league of legend. And if you play this game, you must have experienced this circumstance.
