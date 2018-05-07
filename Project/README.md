@@ -59,8 +59,7 @@ INFO:training.cross_validation:Test ROC AUC: 0.628
 
 INFO:training.cross_validation:Test accuracy score: 0.65
 
-##Visualizing data
-![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/12.JPG)
+##Visualizing data![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/12.JPG)
                                        learning curve
 
 ## Querying a model
