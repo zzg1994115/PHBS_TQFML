@@ -68,7 +68,7 @@ INFO:training.cross_validation:Test accuracy score: 0.65
 ##Visualizing data![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/12.JPG)
                                        learning curve
 
-Using the decision tree
+##Using the decision tree
 
 from sklearn.tree import DecisionTreeClassifier
 
