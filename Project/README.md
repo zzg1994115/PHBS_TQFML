@@ -46,7 +46,7 @@ red team 5: red team support
 
 blue team win: 1 stands for blue team win and 0 stands for red team win 
       
-## Training and evaluating a model
+## Using the logistic regression and evaluation
 The algorithm used for training is Logistic Regression and the evaluation is done through cross validation. The trained model can be saved to a pickle file for later use. The cross validation is done on the train dataset and the final accuracy scores (ROC AUC and raw accuracy) are on the test dataset.
 
 from sklearn.linear_model import LogisticRegression
