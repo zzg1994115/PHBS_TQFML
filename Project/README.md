@@ -67,12 +67,9 @@ INFO:training.cross_validation:Test ROC AUC: 0.628
 
 INFO:training.cross_validation:Test accuracy score: 0.65
 
-## Visualizing data
 
-![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/12.JPG)
-                                       learning curve
 
-## Using the decision tree
+## Using the decision tree and evaluation
 
 from sklearn.tree import DecisionTreeClassifier
 
@@ -81,8 +78,6 @@ tree = DecisionTreeClassifier(criterion='gini',
                               random_state=1)
                               
 tree.fit(X_train, y_train)
-
-## Visualizing data
 
 ![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/3.JPG)
 
