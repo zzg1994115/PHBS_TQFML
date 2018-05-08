@@ -111,7 +111,7 @@ If you put [9,78,65,43,23],[4,8,76,122,]
 
 which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Jax, which is a counter of Riven. It makes sense!
  
-##FAQ
+## FAQ
 1.Only 60% accuracy? That is not much better than predicting that radiant always wins.
 
 Yes, after a lot of feature engineering and algorithm searching, this is the best I could come up with. Along my experiments, I tried using a variety of classification algorithms and even Neural Networks. Even with a lot of tuning, the NNs acted at best as good as the Logistic Regression, so yeah... There is also the human factor that strongly influences the outcome of a game, so there is no way of predicting each game with close-to-perfect accuracy.
