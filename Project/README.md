@@ -103,7 +103,8 @@ full_result = query([59, 56, 54, 48, 31],
 
 partial_result = query([59, 56, 54, 48, 31],
                        [40, 41, 52, 68])
-                      
+                       
+    
 ## Real world Example 
 If you put [9,78,65,43,23],[4,8,76,122,]
 
@@ -112,7 +113,6 @@ If you put [9,78,65,43,23],[4,8,76,122,]
 ![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/7.JPG)
 
 ![Image text](https://github.com/zzg1994115/PHBS_TQFML/blob/master/Project/picture/6.JPG)
-
 
 which meams if your team mate choose Leesin, Ahri, Lucian and Tresh, and enemy choose Riven, Reksai, Ziggs, Ezreal and Lulu. Then your best choice must be Jax, which is a counter of Riven. It makes sense!
  
